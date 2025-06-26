@@ -63,20 +63,19 @@ const Career = () => {
           </div>
           
           {/* Experience boxes with staggered animation */}
-          <div className={`flex flex-col sm:flex-row justify-between mb-12 md:mb-16 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`} style={{transitionDelay: isVisible ? '300ms' : '0ms'}}>
+          <div className={`flex flex-col sm:flex-row justify-between mb-12 md:mb-16 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`} style={{ transitionDelay: isVisible ? '300ms' : '0ms' }}>
             <div className="flex justify-between w-full sm:w-[45%] lg:w-[40%] pl-[5%] sm:pl-0 gap-0 sm:gap-5 lg:gap-12">
               <div>
-                <h4 className="text-2xl lg:text-3xl font-medium leading-tight tracking-wide w-44 text-content">Full Stack Developer</h4>
-                <h5 className="text-lg font-normal tracking-wide mt-2.5 text-secondary">Zelle</h5>
+                <h4 className="text-2xl lg:text-3xl font-medium leading-tight tracking-wide w-44 text-content">Northwest Missouri State University</h4>
+                <h5 className="text-lg font-normal tracking-wide mt-2.5 text-secondary">Maryville, MO · Part-time</h5>
               </div>
-              <h5 className="text-2xl font-medium leading-10 text-content">Sep 2024 – Present</h5>
+              <h5 className="text-2xl font-medium leading-10 text-content">Jan 2024 – Dec 2024</h5>
             </div>
             <p className="w-full sm:w-[45%] lg:w-[40%] text-base lg:text-lg font-light pl-[5%] sm:pl-0 mt-2.5 sm:mt-0 text-content/80">
-            Worked on the Instant Payment Request System, reducing delivery time by 30% through collaboration with cross-functional teams. Developed React frontends with Redux for real-time status tracking, increasing user interaction by 25%.
-            Optimized PostgreSQL databases on AWS, improving query performance by 40% and cutting unauthorized access by 50%. Built secure Spring Boot APIs with AWS AppSync and SNS for real-time sync, reducing transaction time by 20%.
-            Achieved 95% test coverage, integrated into AWS CodePipeline, and sped up development cycles by 35%. Deployed on AWS with auto-scaling and load balancing, ensuring 99.9% uptime and reducing deployment time by 50%.
+              Held multiple roles on campus, including Event Assistant with University Marketing & Communication, Event Staff with Athletics, and Orientation Assistant with the International Center. Contributed to the success of campus events and athletic games by assisting in logistics, guest services, ticketing, and promotional coordination. Supported onboarding for international students and engaged in teaching and mentorship roles as a TA and Enrichment Instructor in TRIO Upward Bound. These roles developed my communication, leadership, event planning, and cross-cultural facilitation skills.
             </p>
           </div>
+
           
           <div className={`flex flex-col sm:flex-row justify-between mb-12 md:mb-16 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`} style={{transitionDelay: isVisible ? '500ms' : '0ms'}}>
             <div className="flex justify-between w-full sm:w-[45%] lg:w-[40%] pl-[5%] sm:pl-0 gap-0 sm:gap-5 lg:gap-12">
